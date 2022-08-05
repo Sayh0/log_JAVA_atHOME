@@ -39,6 +39,8 @@ public class MainClass02 {
 	           pstmt.setString(3, addr); //1, 2, 3 은 들어갈 물음표의 순서.
 	           //sql 문 실행하기
 	           pstmt.executeUpdate(); //executeQuery 가 아니다! 인서트 동작 수행이기 때문에 업데이트 메소드를 호출.
+	           //이녀석이 리턴하는 인트값음 뭘까? 
+	           pstmt.executeUp
 	           System.out.println("회원 정보를 저장했습니다.");
 	      }catch(Exception e) {
 	         e.printStackTrace();
