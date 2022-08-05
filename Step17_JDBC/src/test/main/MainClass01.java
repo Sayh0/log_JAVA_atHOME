@@ -40,7 +40,6 @@ public class MainClass01 {
 	    	   *  ResultSet 객체의 .next() 메소드는 cursor 밑에 row가 존재하는지 확인해서
 	    	   *  만일 존재하면 true를 리턴하고 cursor가 한 칸 밑으로 이동한다
 	    	   *  만일 존재하지 않으면 false를 리턴한다.
-	    	   *  
 	    	   */
 	    	  while(rs.next()) { //next로 커서를 내린다. 더이상 row 가 없으면 false 를 반환
 	    		  //현재 cursor 가 위치한 곳에서 num 이라는 컬럼의 정수 얻어내기
